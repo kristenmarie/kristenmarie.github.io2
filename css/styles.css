@@ -34,8 +34,27 @@ nav.navbar.navbar-default {
   margin-top: 3rem;
 }
 
+.carousel{
+    background: white;
+    margin-top: 20px;
+    margin-right: 50%;
+    width: 500px;
+}
+
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+
 #about-me {
   margin-top: 2rem;
+}
+
+#about-me-text {
+  margin-top: 10rem;
 }
 
 #self-image {
