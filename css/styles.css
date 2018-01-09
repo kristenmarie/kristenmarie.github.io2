@@ -1,1 +1,30 @@
 
+nav.navbar.navbar-default {
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #bdb7b7;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #bdb7b7;
+}
+
+.about-me {
+  margin-top: 2rem;
+}
+
+#self-image {
+  border-radius: 1rem;
+}
