@@ -51,6 +51,12 @@ nav.navbar.navbar-default {
     margin: 0 auto; /* Align slide image horizontally center */
 }
 
+.page-footer {
+  background-color: black;
+  color: white;
+  padding-bottom: 2rem;
+}
+
 #about-me {
   margin-top: 10rem;
 }
@@ -63,10 +69,14 @@ nav.navbar.navbar-default {
   border-radius: 1rem;
 }
 
-/* #my-work {
-  margin: auto;
-  width: 50%;
-} */
+#my-work {
+  margin-top: 5rem;
+}
+
+#build-h2 {
+  margin-bottom: 5rem;
+  text-align: center;
+}
 
 @media (min-width: 1000px) {
     .center {
