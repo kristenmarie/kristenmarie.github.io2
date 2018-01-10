@@ -14,7 +14,7 @@
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-to-collapse" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -24,7 +24,7 @@
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="navbar-to-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">About Me</a></li>
             <li><a href="#my-work">My Work</a></li>
@@ -47,55 +47,48 @@
               <h1 id="greeting">Hello there!</h1>
             </div>
             <div id="about-me-text">
-              <p>Raised in Florida, after spending a summer in Denali National Park with no electricity, I decided the mountains were for me and made the move to the Pacific Northwest. That was 10 years ago! My passion for technology spans decades and I love a hearty problem to solve. I strive for intuitive, clean solutions that ehance the lives of my colleagues and userbase. I'm infatuated with learning new things and am so excited to be involved in an industry that is constantly evolving.</p>
+              <p>Raised in Florida, after spending a summer working in Denali National Park with no electricity, I decided the mountains were more my style and made the move to the Pacific Northwest. That was 10 years ago! My passion for technology spans decades and I love a hearty problem to solve. I strive for intuitive, clean solutions that ehance the lives of my colleagues and userbase. I'm infatuated with learning new things and am so excited to be involved in an industry that is constantly evolving. </p>
+              <br>
+              <p>In my spare time you can find me working on my own video game projects, reading(huge scifi fan), hiking, knitting or playing board games.</p>
             </div>
           </div>
         </div>
       </div>
       <div id="my-work" class="center">
-        <h2 id="build-h2">Here are some things I built!</h2>
-        <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
-          <!-- Carousel indicators -->
-          <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-          <!-- Carousel items -->
-          <div class="carousel-inner">
-              <div class="item active">
-                  <img src="img/eatup.png" alt="First Slide">
-                  <div class="carousel-caption">
-                      <h3>First slide label</h3>
-                      <p>Lorem ipsum dolor sit amet...</p>
-                  </div>
-              </div>
-              <div class="item">
-                  <img src="img/doctorlookup.png" alt="Second Slide">
-                  <div class="carousel-caption">
-                      <h3>Second slide label</h3>
-                      <p>Aliquam sit amet gravida nibh, facilisis...</p>
-                  </div>
-              </div>
-              <div class="item">
-                  <img src="img/shoestore.png" alt="Third Slide">
-                  <div class="carousel-caption">
-                      <h3>Third slide label</h3>
-                      <p>Praesent commodo cursus magna vel...</p>
-                  </div>
-              </div>
+        <h2 id="work-header">Here are a few of the things I've built</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="img/doctorlookup.png" alt="doctor site">
+            <div class="project-text">
+              <h4>Card title</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-info">GitHub Repo</a>
+            </div>
           </div>
-          <!-- Carousel nav -->
-          <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="carousel-control right" href="#myCarousel" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
+          <div class="col-md-6">
+            <img src="img/shoestore.png" alt="shoe store site">
+            <div class="project-text">
+              <h4>Card title</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-info">GitHub Repo</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div id="last-project">
+            <img src="img/eatup.png" alt="Card image cap">
+            <div class="project-text">
+              <h4>Card title</h4>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-info">GitHub Repo</a>
+            </div>
+          </div>
         </div>
       </div>
       <div id="contact">
-
+        <h2>Drop me a line!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
     <footer class="page-footer center-on-small-only">

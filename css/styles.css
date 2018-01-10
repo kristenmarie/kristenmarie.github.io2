@@ -57,8 +57,33 @@ nav.navbar.navbar-default {
   padding-bottom: 2rem;
 }
 
+.build-h2 {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.black {
+  color: black;
+}
+
+.project-text {
+  text-align: center;
+  margin: auto;
+  width:50%;
+}
+
+.btn-info {
+  background-color: teal;
+  border-color: #027575;
+}
+
+.btn-info:hover {
+  background-color: #015a5a;
+}
+
 #about-me {
   margin-top: 10rem;
+  padding-top: 10rem;
 }
 
 #about-me-text {
@@ -73,15 +98,25 @@ nav.navbar.navbar-default {
   margin-top: 5rem;
 }
 
-#build-h2 {
-  margin-bottom: 5rem;
+#work-header {
   text-align: center;
+  margin-bottom: 5rem;
+}
+
+#contact {
+  margin-top: 5rem;
+}
+
+#last-project {
+  margin: auto;
+  margin-top: 5rem;
+  width:40%;
 }
 
 @media (min-width: 1000px) {
     .center {
       margin: auto;
-      width:50%;
+      width:95%;
     }
     .center-inner {
       width:500px;
