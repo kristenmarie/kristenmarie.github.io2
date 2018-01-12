@@ -17,7 +17,7 @@ _This page acts as a portfolio for completed projects featuring an about me and 
 
 ## Known Bugs
 
-_There are no known bugs at this time._
+_Resume is not yet functional. Needs to be redone._
 
 ## Support and contact details
 
